@@ -1,0 +1,40 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.apk
+*.aab
+*.unitypackage
+sysinfo.txt
+4.	Salve com Ctrl+S e feche o Bloco de Notas.
+Passo 4 – Preparar o Git na pasta
+Digite um comando por vez e aperte Enter depois de cada um. Troque pelo seu nome e pelo e-mail da sua conta do GitHub:
+git init
+git config user.name "Seu Nome"
+git config user.email "seuemail@exemplo.com"
+Passo 5 – Separar os arquivos e conferir
+git add .
+(Tem um ponto no final, separado por espaço.) Pode aparecer muitas linhas com warning: LF will be replaced by CRLF. Isso não é erro, pode ignorar.
+Agora confira se a pasta Library ficou de fora:
+git status | findstr Library
+
+
